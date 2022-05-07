@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardName": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "cardPassword": {
+      "type": "json"
+    },
+    "cardNumber": {
+      "type": "json"
+    },
+    "securityCode": {
+      "type": "integer"
+    },
+    "cardTypeInfo": {
+      "type": "json"
+    },
+    "month": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
